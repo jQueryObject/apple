@@ -1,0 +1,180 @@
+body{
+  font:62.5% "Microsoft Yi Baiti",verdana;
+}
+/*every page*/
+.fp-section{
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+/*第一屏*/
+.section-one {
+  background: url("../images/hero_sunset_large_2x.jpg") no-repeat center;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.section-one h1{
+  margin-top: 5%;
+  color:#fff;
+  font-weight: normal;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+.section-one p{
+  margin:5% auto 0;
+  color:#fff;
+  font-size: 1.4rem;
+  width: 60%;
+  opacity: .6;
+  margin-top: 800px;
+}
+.section-one a{
+  display: block;
+  margin:10% auto 0;
+  color:#ff9000;
+  font-size: 2rem;
+  opacity: .9;
+}
+/*第二屏*/
+.section-two {
+  background: url("../images/technology_hero_large_2x.jpg") no-repeat bottom;
+  background-size: 100% 100%;
+}
+@media screen and (min-width: 768px){
+  .section-two h1{
+    font-size: 6rem!important;
+  }
+  .section-three h1{
+    font-size: 3rem!important;
+  }
+  .section-three p{
+    font-size: 2rem!important;
+  }
+  .section-three a{
+    margin: 3vh auto 0!important;
+    color:#08c;
+    font-size: 2rem!important;
+  }
+}
+@media screen and (min-width: 769px) and(max-width: 992px){
+  .section-three h1{
+    font-size: 3rem!important;
+  }
+  .fp-section.section-three p{
+    font-size: 2rem!important;
+  }
+  .section-three a{
+    margin: 3vh auto 0!important;
+    color:#08c;
+    font-size: 2rem!important;
+  }
+}
+/*手机端*/
+@media screen and (max-width: 768px){
+  .section-four h1{
+    font-size: 1.8rem!important;
+  }
+  .section-four img{
+    width: 60px!important;
+    height: 100px!important;
+  }
+  .section-four p{
+    font-size: 0.6rem!important;
+    margin: 4px auto!important;
+  }
+  .section-four a{
+    font-size: 0.4rem!important;
+  }
+}
+.section-two h1{
+  margin: 5px auto;
+  color:#333;
+  font-weight:normal;
+  font-size: 2.8rem;
+}
+.section-two a{
+  display: block;
+  margin:10vh auto 0;
+  color:#08c;
+  font-size: 1.2rem;
+}
+/*第三屏*/
+.section-three {
+  background: #fff url("../images/timekeeping_hero_large_2x.jpg") no-repeat center 300px;
+  background-size: 50%;
+}
+.section-three h1{
+  margin:20px auto;
+  width: 60%;
+  color:#333;
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-left: -1500px;
+}
+.section-three p{
+  margin:20px auto 0;
+  width: 80%;
+  color:#333;
+  font-size: .8rem;
+  margin-left: 1500px;
+}
+.section-three a{
+  display: block;
+  margin:20px auto 0;
+  color:#08c;
+  font-size: .8rem;
+}
+/*第四屏*/
+.section-four {
+  background: #f2f2f2;
+}
+.section-four h1{
+  margin: 20px auto;
+  color:#ec971f;
+  font-weight: normal;
+  font-size: 4rem;
+}
+.section-four img{
+  width: 160px;
+  height: 24vw;
+  margin-top: 10px;
+}
+.section-four h4{
+  margin: 20px auto;
+}
+.section-four h4.primary{
+  background-image: url("../other/logo_collection_sport.svg");
+  background-size: 100% 100%;
+  height: 4vw;
+  width: 22vw;
+}
+.section-four h4.sport{
+  background-image: url("../other/logo_collection_sport.svg");
+  background-size: 100% 100%;
+  height: 4vw;
+  width: 22vw;
+}
+.section-four h4.edition{
+  background-image: url("../other/logo_collection_edition.svg");
+  background-size: 100% 100%;
+  height: 4vw;
+  width: 22vw;
+}
+.section-four h4.edition1{
+  background-image: url("../other/logo_collection_edition.svg");
+  background-size: 100% 100%;
+  height: 4vw;
+  width: 22vw;
+}
+.section-four p{
+  margin: 10px auto;
+  width: 90%;
+  font-size: 1rem;
+}
+.section-four a{
+  display: block;
+  margin: 10px auto 0;
+  color:#08c;
+  font-size: 16px;
+}
